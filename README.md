@@ -39,7 +39,7 @@ provider "oci" {
 
 ```hcl
 module "main_clients_compartment" {
-  source = "web-virtua-oci-multi-account-modules/compartment/aws"
+  source = "web-virtua-oci-multi-account-modules/compartment/oci"
 
   compartment_id = var.tenancy_ocid
   name           = "tf-compatment-test"
@@ -66,7 +66,7 @@ module "main_clients_compartment" {
 
 ```hcl
 module "main_clients_compartment" {
-  source = "web-virtua-oci-multi-account-modules/compartment/aws"
+  source = "web-virtua-oci-multi-account-modules/compartment/oci"
 
   compartment_id = var.tenancy_ocid
   name           = "tf-compatment-test"
