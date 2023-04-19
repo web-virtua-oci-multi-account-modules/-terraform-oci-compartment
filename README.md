@@ -131,3 +131,4 @@ variable "policies" {
 |------|-------------|
 | `compartment` | Compartiment |
 | `compartment_id` | Compartiment ID |
+| `policies` | Policies |
