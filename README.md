@@ -89,7 +89,7 @@ module "main_clients_compartment" {
 | use_tags_default | `bool` | `true` | no | If true will be use the tags default to resources | `*`false <br> `*`true |
 | tags | `map(any)` | `{}` | no | Tags to compartment | `-` |
 | defined_tags | `map(any)` | `{}` | no | Defined tags to compartment | `-` |
-| records | `list(object)` | `[]` | no | List of policies to be created | `-` |
+| policies | `list(object)` | `[]` | no | List of policies to be created | `-` |
 
 * Model of variable policies
 ```hcl
